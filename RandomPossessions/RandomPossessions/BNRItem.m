@@ -46,12 +46,16 @@
     return [self initWithItemName:name valueInDollars:0 serialNumber:@""];
 }
 
+- (id)initWithItemName:(NSString *)name serialNumber:(NSString *)sNumber{
+    return [self initWithItemName:name valueInDollars:0 serialNumber:sNumber];
+}
+
 - (id)init{
     return [self initWithItemName:@"Item" valueInDollars:0 serialNumber:@""];
 }
 
 - (NSString *)description{
-    NSString *result = [[NSString alloc] initWithFormat:@"%@ (%@): Worth $%d, recorded on %@",self.itemName,self.serialNumber,self.valueInDollars,self.dateCreated];
+    NSString *result = [[NSString alloc] initWithFormat:@"%@ (%@): 价值 $%d, 记录于 %@",self.itemName,self.serialNumber,self.valueInDollars,self.dateCreated];
     return result;
 }
 

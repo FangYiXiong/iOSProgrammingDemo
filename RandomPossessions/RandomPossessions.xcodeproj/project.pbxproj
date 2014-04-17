@@ -11,6 +11,7 @@
 		3252E1F718FF7C25007900E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3252E1F618FF7C25007900E7 /* main.m */; };
 		3252E1FB18FF7C25007900E7 /* RandomPossessions.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3252E1FA18FF7C25007900E7 /* RandomPossessions.1 */; };
 		3252E20318FF9CD2007900E7 /* BNRItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3252E20218FF9CD2007900E7 /* BNRItem.m */; };
+		328718D318FFAA670091B3B3 /* BNRContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 328718D218FFAA670091B3B3 /* BNRContainer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +35,8 @@
 		3252E1FA18FF7C25007900E7 /* RandomPossessions.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = RandomPossessions.1; sourceTree = "<group>"; };
 		3252E20118FF9CD2007900E7 /* BNRItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRItem.h; sourceTree = "<group>"; };
 		3252E20218FF9CD2007900E7 /* BNRItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRItem.m; sourceTree = "<group>"; };
+		328718D118FFAA670091B3B3 /* BNRContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRContainer.h; sourceTree = "<group>"; };
+		328718D218FFAA670091B3B3 /* BNRContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRContainer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +82,8 @@
 				3252E1F618FF7C25007900E7 /* main.m */,
 				3252E20118FF9CD2007900E7 /* BNRItem.h */,
 				3252E20218FF9CD2007900E7 /* BNRItem.m */,
+				328718D118FFAA670091B3B3 /* BNRContainer.h */,
+				328718D218FFAA670091B3B3 /* BNRContainer.m */,
 				3252E1FA18FF7C25007900E7 /* RandomPossessions.1 */,
 				3252E1F818FF7C25007900E7 /* Supporting Files */,
 			);
@@ -146,6 +151,7 @@
 			files = (
 				3252E1F718FF7C25007900E7 /* main.m in Sources */,
 				3252E20318FF9CD2007900E7 /* BNRItem.m in Sources */,
+				328718D318FFAA670091B3B3 /* BNRContainer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +265,7 @@
 				3252E20018FF7C25007900E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
