@@ -11,9 +11,10 @@
 @interface BNRItem : NSObject
 @property (nonatomic, copy) NSString *itemName;
 @property (nonatomic, copy) NSString *serialNumber;
-@property (nonatomic, assign) int valueInDollars;
-@property (nonatomic, strong) NSDate *dateCreated;
-
+@property (nonatomic) int valueInDollars;
+@property (nonatomic, readonly, strong) NSDate *dateCreated;
+@property (nonatomic, strong) BNRItem *containedItem;
+@property (nonatomic, weak) BNRItem *container;
 
 + (id)randomItem;
 - (id)initWithItemName:(NSString *)name;

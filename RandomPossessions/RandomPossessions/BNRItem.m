@@ -11,7 +11,7 @@
 @implementation BNRItem
 
 + (id)randomItem{
-    NSArray *randomAdjectiveList = @[@"毛茸茸的",@"生锈的",@"锃亮的"];
+    NSArray *randomAdjectiveList = @[@"毛茸茸的",@"生锈的",@"闪闪发光的"];
     NSArray *randomNounList = @[@"玩具熊",@"叉勺",@"Mac电脑"];
     NSInteger adjectiveIndex = rand() % [randomAdjectiveList count];
     NSInteger nounIndex = rand() % [randomNounList count];
@@ -52,6 +52,11 @@
 
 - (id)init{
     return [self initWithItemName:@"Item" valueInDollars:0 serialNumber:@""];
+}
+
+- (void)setContainedItem:(BNRItem *)containedItem{
+    _containedItem = containedItem;
+    containedItem.container = self;
 }
 
 - (NSString *)description{
