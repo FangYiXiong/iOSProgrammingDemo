@@ -55,6 +55,13 @@
     
     // 绘制图形！
     [path stroke];
+    
+    // 将PNG图片绘制到屏幕上
+    UIImage *logoImage = [UIImage imageNamed:@"logo.png"];
+    CGSize size = logoImage.size;
+    
+    CGRect logoRect = CGRectMake(65, 143, size.width/2,size.height/2);
+    [logoImage drawInRect:logoRect];
 }
 
 
