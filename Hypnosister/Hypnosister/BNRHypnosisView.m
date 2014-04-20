@@ -36,6 +36,9 @@
     UIBezierPath *path = [[UIBezierPath alloc] init];
     
     for (float currentRadius = maxRadius; currentRadius > 0 ; currentRadius -= 20) {
+        // 解决麦田怪圈问题..
+        [path moveToPoint:CGPointMake(center.x + currentRadius, center.y)];
+        
         // 画一系列的同心圆
         [path addArcWithCenter:center
                         radius:currentRadius
@@ -43,9 +46,6 @@
                       endAngle:M_PI * 2.0
                      clockwise:YES];
     }
-    
-    
-
     
     // 配置线的宽度为 10 points.
     path.lineWidth = 10;
