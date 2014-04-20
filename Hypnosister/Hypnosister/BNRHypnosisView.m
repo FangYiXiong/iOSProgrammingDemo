@@ -14,7 +14,8 @@
 {
     self = [super initWithFrame:frame];
     if (self) {
-        // Initialization code
+        // 所有的 BNRHypnosisViews 都有一个透明的背景
+        self.backgroundColor = [UIColor clearColor];
     }
     return self;
 }
@@ -40,6 +41,12 @@
                 startAngle:0
                   endAngle:M_PI * 2.0
                  clockwise:YES];
+    
+    // 配置线的宽度为 10 points.
+    path.lineWidth = 10;
+    
+    // 将绘图的线条颜色改为 light gray
+    [[UIColor lightGrayColor] setStroke];
     
     // 绘制图形！
     [path stroke];
