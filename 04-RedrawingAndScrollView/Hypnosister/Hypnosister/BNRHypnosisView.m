@@ -84,8 +84,7 @@
 
 - (void)setCircleColor:(UIColor *)circleColor{
     _circleColor = circleColor;
-    // 实验 setNeedDisplayInRect 方法，只重画一小部分的 view
-    [self setNeedsDisplayInRect:CGRectMake(0, 0, 200, 100)];
+    [self setNeedsDisplay];
 }
 
 

@@ -15,11 +15,23 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    CGRect firstFrame = self.window.bounds;
     
-    BNRHypnosisView *firstView = [[BNRHypnosisView alloc] initWithFrame:firstFrame];
+    // 创建各种 Rect
+    CGRect screenRect = self.window.bounds;
+    CGRect bigRect = screenRect;
+    bigRect.size.width *= 2.0;
+    bigRect.size.height *= 2.0;
     
-    [self.window addSubview:firstView];
+    // 创建一个屏幕大小的 ScrollView ，并将其加入 window
+    UIScrollView *scrollView = [[UIScrollView alloc] initWithFrame:screenRect];
+    [self.window addSubview:scrollView];
+    
+    // 创建一个 bigRect 大小的 HyposisView，并将其加入 ScrollView
+    BNRHypnosisView * hypnosisView = [[BNRHypnosisView alloc] initWithFrame:bigRect];
+    [scrollView addSubview:hypnosisView];
+    
+    // 告诉 ScrollView 它的内容区域有多大
+    scrollView.contentSize = bigRect.size;
     
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
