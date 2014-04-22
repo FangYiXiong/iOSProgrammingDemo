@@ -20,15 +20,20 @@
     CGRect screenRect = self.window.bounds;
     CGRect bigRect = screenRect;
     bigRect.size.width *= 2.0;
-    bigRect.size.height *= 2.0;
     
     // 创建一个屏幕大小的 ScrollView ，并将其加入 window
     UIScrollView *scrollView = [[UIScrollView alloc] initWithFrame:screenRect];
+    scrollView.pagingEnabled = YES;
     [self.window addSubview:scrollView];
     
-    // 创建一个 bigRect 大小的 HyposisView，并将其加入 ScrollView
-    BNRHypnosisView * hypnosisView = [[BNRHypnosisView alloc] initWithFrame:bigRect];
-    [scrollView addSubview:hypnosisView];
+    // 创建一个屏幕大小的 HypnosisView，并将其加入 ScrollView
+    BNRHypnosisView *firstHypnosisView = [[BNRHypnosisView alloc] initWithFrame:screenRect];
+    [scrollView addSubview:firstHypnosisView];
+    
+    // 再创建一个 HypnosisView，放到原来的右边
+    screenRect.origin.x += screenRect.size.width;
+    BNRHypnosisView *secondHypnosisView = [[BNRHypnosisView alloc] initWithFrame:screenRect];
+    [scrollView addSubview:secondHypnosisView];
     
     // 告诉 ScrollView 它的内容区域有多大
     scrollView.contentSize = bigRect.size;
