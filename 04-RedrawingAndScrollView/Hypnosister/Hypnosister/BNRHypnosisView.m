@@ -67,50 +67,6 @@
     
     // 绘制图形！
     [path stroke];
-    
-    // 清除 path 上面的所有点
-    [path removeAllPoints];
-    
-    // 画一个三角形的路径
-    [path moveToPoint:CGPointMake(60,450)];
-    [path addLineToPoint:CGPointMake(260, 450)];
-    [path addLineToPoint:CGPointMake(160, 120)];
-    
-    // 对 path 进行裁剪，接下来的绘图操作都会限定在 path 所指定的区域内
-    [path addClip];
-    
-    
-    // 配置 Gradient（渐变）
-    
-    // 起始点和终点，类似PS
-    CGFloat locations[2]  = {0.0, 1.0};
-    
-    // 配置每个点的颜色
-    CGFloat components[8] = {1.0,1.0,0.0,1.0,0.0,1.0,0.0,1.0};
-    
-    // 选择颜色空间
-    CGColorSpaceRef colorSpace = CGColorSpaceCreateDeviceRGB();
-    
-    // 创建 Gradient
-    CGGradientRef gradient = CGGradientCreateWithColorComponents(colorSpace, components, locations, 2);
-    
-    CGPoint startPoint = CGPointMake(160, 450);
-    CGPoint endPoint = CGPointMake(160, 120);
-    
-    CGContextDrawLinearGradient(currentContext, gradient, startPoint, endPoint,   kCGGradientDrawsBeforeStartLocation |kCGGradientDrawsAfterEndLocation);
-    
-    // 恢复 CGContext
-    CGContextRestoreGState(currentContext);
-    
-    // 设置阴影
-    CGContextSetShadow(currentContext, CGSizeMake(4, 7), 3);
-    
-    // 将PNG图片绘制到屏幕上
-    UIImage *logoImage = [UIImage imageNamed:@"logo.png"];
-    CGSize size = logoImage.size;
-    
-    CGRect logoRect = CGRectMake(65, 143, size.width/2,size.height/2);
-    [logoImage drawInRect:logoRect];
 }
 
 

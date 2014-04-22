@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "328718DC18FFBAB60091B3B3"
-               BuildableName = "Whereami.app"
-               BlueprintName = "Whereami"
-               ReferencedContainer = "container:Whereami.xcodeproj">
+               BlueprintIdentifier = "32002C9A19035FFD007A26FA"
+               BuildableName = "Hypnosister.app"
+               BlueprintName = "Hypnosister"
+               ReferencedContainer = "container:Hypnosister.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,20 +32,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "328718FD18FFBAB60091B3B3"
-               BuildableName = "WhereamiTests.xctest"
-               BlueprintName = "WhereamiTests"
-               ReferencedContainer = "container:Whereami.xcodeproj">
+               BlueprintIdentifier = "32002CB519035FFD007A26FA"
+               BuildableName = "HypnosisterTests.xctest"
+               BlueprintName = "HypnosisterTests"
+               ReferencedContainer = "container:Hypnosister.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "328718DC18FFBAB60091B3B3"
-            BuildableName = "Whereami.app"
-            BlueprintName = "Whereami"
-            ReferencedContainer = "container:Whereami.xcodeproj">
+            BlueprintIdentifier = "32002C9A19035FFD007A26FA"
+            BuildableName = "Hypnosister.app"
+            BlueprintName = "Hypnosister"
+            ReferencedContainer = "container:Hypnosister.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -61,10 +61,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "328718DC18FFBAB60091B3B3"
-            BuildableName = "Whereami.app"
-            BlueprintName = "Whereami"
-            ReferencedContainer = "container:Whereami.xcodeproj">
+            BlueprintIdentifier = "32002C9A19035FFD007A26FA"
+            BuildableName = "Hypnosister.app"
+            BlueprintName = "Hypnosister"
+            ReferencedContainer = "container:Hypnosister.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -79,10 +79,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "328718DC18FFBAB60091B3B3"
-            BuildableName = "Whereami.app"
-            BlueprintName = "Whereami"
-            ReferencedContainer = "container:Whereami.xcodeproj">
+            BlueprintIdentifier = "32002C9A19035FFD007A26FA"
+            BuildableName = "Hypnosister.app"
+            BlueprintName = "Hypnosister"
+            ReferencedContainer = "container:Hypnosister.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

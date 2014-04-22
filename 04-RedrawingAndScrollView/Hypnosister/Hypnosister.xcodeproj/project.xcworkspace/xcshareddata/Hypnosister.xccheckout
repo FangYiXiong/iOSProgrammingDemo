@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>FA5988F5-CC6B-4D1A-A7C2-0843B9526785</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Hypnosister</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>2F6BE493-06F6-465F-8ECE-4ABE7E0E4FE2</key>
+		<string>https://github.com/FangYiXiong/iOSProgrammingDemo.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>04-RedrawingAndScrollView/Hypnosister/Hypnosister.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>2F6BE493-06F6-465F-8ECE-4ABE7E0E4FE2</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/FangYiXiong/iOSProgrammingDemo.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>2F6BE493-06F6-465F-8ECE-4ABE7E0E4FE2</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>2F6BE493-06F6-465F-8ECE-4ABE7E0E4FE2</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iOSProgrammingDemo</string>
+		</dict>
+	</array>
+</dict>
+</plist>

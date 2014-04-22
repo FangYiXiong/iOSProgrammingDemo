@@ -1,18 +1,18 @@
 //
-//  WhereamiTests.m
-//  WhereamiTests
+//  HypnosisterTests.m
+//  HypnosisterTests
 //
-//  Created by FangYiXiong on 14-4-17.
-//
+//  Created by FangYiXiong on 14-4-20.
+//  Copyright (c) 2014年 Fang YiXiong. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface WhereamiTests : XCTestCase
+@interface HypnosisterTests : XCTestCase
 
 @end
 
-@implementation WhereamiTests
+@implementation HypnosisterTests
 
 - (void)setUp
 {
