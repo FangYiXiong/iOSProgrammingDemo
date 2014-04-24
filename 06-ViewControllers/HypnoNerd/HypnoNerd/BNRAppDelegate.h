@@ -1,9 +1,9 @@
 //
 //  BNRAppDelegate.h
-//  Hypnosister
+//  HypnoNerd
 //
-//  Created by FangYiXiong on 14-4-20.
-//  Copyright (c) 2014年 Fang YiXiong. All rights reserved.
+//  Created by Yixiong on 14-4-24.
+//  Copyright (c) 2014年 Fang Yixiong. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

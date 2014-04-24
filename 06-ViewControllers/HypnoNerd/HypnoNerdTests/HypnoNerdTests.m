@@ -1,18 +1,18 @@
 //
-//  HypnosisterTests.m
-//  HypnosisterTests
+//  HypnoNerdTests.m
+//  HypnoNerdTests
 //
-//  Created by FangYiXiong on 14-4-20.
-//  Copyright (c) 2014年 Fang YiXiong. All rights reserved.
+//  Created by Yixiong on 14-4-24.
+//  Copyright (c) 2014年 Fang Yixiong. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface HypnosisterTests : XCTestCase
+@interface HypnoNerdTests : XCTestCase
 
 @end
 
-@implementation HypnosisterTests
+@implementation HypnoNerdTests
 
 - (void)setUp
 {

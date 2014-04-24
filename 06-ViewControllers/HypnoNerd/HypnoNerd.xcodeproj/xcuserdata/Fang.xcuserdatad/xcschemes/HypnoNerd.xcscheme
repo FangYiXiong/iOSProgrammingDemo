@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "32002C9A19035FFD007A26FA"
-               BuildableName = "Hypnosister.app"
-               BlueprintName = "Hypnosister"
-               ReferencedContainer = "container:Hypnosister.xcodeproj">
+               BlueprintIdentifier = "32D6626D1908EDBD00E3B06D"
+               BuildableName = "HypnoNerd.app"
+               BlueprintName = "HypnoNerd"
+               ReferencedContainer = "container:HypnoNerd.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,20 +32,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "32002CB519035FFD007A26FA"
-               BuildableName = "HypnosisterTests.xctest"
-               BlueprintName = "HypnosisterTests"
-               ReferencedContainer = "container:Hypnosister.xcodeproj">
+               BlueprintIdentifier = "32D662881908EDBD00E3B06D"
+               BuildableName = "HypnoNerdTests.xctest"
+               BlueprintName = "HypnoNerdTests"
+               ReferencedContainer = "container:HypnoNerd.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "32002C9A19035FFD007A26FA"
-            BuildableName = "Hypnosister.app"
-            BlueprintName = "Hypnosister"
-            ReferencedContainer = "container:Hypnosister.xcodeproj">
+            BlueprintIdentifier = "32D6626D1908EDBD00E3B06D"
+            BuildableName = "HypnoNerd.app"
+            BlueprintName = "HypnoNerd"
+            ReferencedContainer = "container:HypnoNerd.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -61,10 +61,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "32002C9A19035FFD007A26FA"
-            BuildableName = "Hypnosister.app"
-            BlueprintName = "Hypnosister"
-            ReferencedContainer = "container:Hypnosister.xcodeproj">
+            BlueprintIdentifier = "32D6626D1908EDBD00E3B06D"
+            BuildableName = "HypnoNerd.app"
+            BlueprintName = "HypnoNerd"
+            ReferencedContainer = "container:HypnoNerd.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -79,10 +79,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "32002C9A19035FFD007A26FA"
-            BuildableName = "Hypnosister.app"
-            BlueprintName = "Hypnosister"
-            ReferencedContainer = "container:Hypnosister.xcodeproj">
+            BlueprintIdentifier = "32D6626D1908EDBD00E3B06D"
+            BuildableName = "HypnoNerd.app"
+            BlueprintName = "HypnoNerd"
+            ReferencedContainer = "container:HypnoNerd.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

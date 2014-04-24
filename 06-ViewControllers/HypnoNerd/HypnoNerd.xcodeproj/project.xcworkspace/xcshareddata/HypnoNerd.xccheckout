@@ -5,16 +5,16 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>DB618619-7811-48B0-80AA-E84F427BB42B</string>
+	<string>5AD16371-7430-41D7-BA97-36B5F5A27560</string>
 	<key>IDESourceControlProjectName</key>
-	<string>Hypnosister</string>
+	<string>HypnoNerd</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>2F6BE493-06F6-465F-8ECE-4ABE7E0E4FE2</key>
 		<string>https://github.com/FangYiXiong/iOSProgrammingDemo.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>04-RedrawingAndScrollView/Hypnosister/Hypnosister.xcodeproj/project.xcworkspace</string>
+	<string>06-ViewControllers/HypnoNerd/HypnoNerd.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>2F6BE493-06F6-465F-8ECE-4ABE7E0E4FE2</key>

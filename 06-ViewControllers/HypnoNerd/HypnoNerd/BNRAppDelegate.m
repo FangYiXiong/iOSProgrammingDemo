@@ -1,13 +1,12 @@
 //
 //  BNRAppDelegate.m
-//  Hypnosister
+//  HypnoNerd
 //
-//  Created by FangYiXiong on 14-4-20.
-//  Copyright (c) 2014年 Fang YiXiong. All rights reserved.
+//  Created by Yixiong on 14-4-24.
+//  Copyright (c) 2014年 Fang Yixiong. All rights reserved.
 //
 
 #import "BNRAppDelegate.h"
-#import "BNRHypnosisView.h"
 
 @implementation BNRAppDelegate
 
@@ -15,29 +14,6 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    
-    // 创建各种 Rect
-    CGRect screenRect = self.window.bounds;
-    CGRect bigRect = screenRect;
-    bigRect.size.width *= 2.0;
-    
-    // 创建一个屏幕大小的 ScrollView ，并将其加入 window
-    UIScrollView *scrollView = [[UIScrollView alloc] initWithFrame:screenRect];
-    scrollView.pagingEnabled = YES;
-    [self.window addSubview:scrollView];
-    
-    // 创建一个屏幕大小的 HypnosisView，并将其加入 ScrollView
-    BNRHypnosisView *firstHypnosisView = [[BNRHypnosisView alloc] initWithFrame:screenRect];
-    [scrollView addSubview:firstHypnosisView];
-    
-    // 再创建一个 HypnosisView，放到原来的右边
-    screenRect.origin.x += screenRect.size.width;
-    BNRHypnosisView *secondHypnosisView = [[BNRHypnosisView alloc] initWithFrame:screenRect];
-    [scrollView addSubview:secondHypnosisView];
-    
-    // 告诉 ScrollView 它的内容区域有多大
-    scrollView.contentSize = bigRect.size;
-    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
