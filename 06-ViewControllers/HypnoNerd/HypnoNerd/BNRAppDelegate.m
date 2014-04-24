@@ -22,7 +22,10 @@
     NSBundle *appBundle = [NSBundle mainBundle];
     
     // 在 appBundle 中查找 BNRReminderViewController.XIB 这个文件
-    BNRReminderViewController *rvc = [[BNRReminderViewController alloc] initWithNibName:@"BNRReminderViewController" bundle:nil];
+//    BNRReminderViewController *rvc = [[BNRReminderViewController alloc] initWithNibName:@"BNRReminderViewController" bundle:nil];
+    
+    // 不使用 withNibName..这个方法也可以，应该该方法为 指定初始化方法，系统会自动调用
+    BNRReminderViewController *rvc = [[BNRReminderViewController alloc] init];
     
     UITabBarController *tbc = [[UITabBarController alloc] init];
     tbc.viewControllers = @[hvc,rvc];
