@@ -13,7 +13,7 @@
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil{
     if (self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil]) {
-        self.tabBarItem.title = @"Hypnotize";
+        self.tabBarItem.title = @"催眠术";
         UIImage *image = [UIImage imageNamed:@"Hypno.png"];
         self.tabBarItem.image = image;
     }
