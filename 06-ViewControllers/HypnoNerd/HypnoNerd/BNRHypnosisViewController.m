@@ -32,5 +32,18 @@
     
     // 将其赋值给 ViewController 的 view 属性
     self.view = backgroundView;
+    
+    // 创建一个UISegmentedControl.
+    UISegmentedControl * seg = [[UISegmentedControl alloc] initWithItems:@[@"Red",@"Green",@"Blue"]];
+    [seg addTarget:self action:@selector(changeColor:) forControlEvents:UIControlEventValueChanged];
+    seg.frame = CGRectMake(40, 40, 160, 20);
+    [self.view addSubview:seg];
+}
+
+- (void)changeColor:(id)sender{
+    BNRHypnosisView * view = (BNRHypnosisView *)self.view;
+    NSArray *colors = @[[UIColor redColor],[UIColor greenColor],[UIColor blueColor]];
+    UISegmentedControl * seg = (UISegmentedControl *)sender;
+    [view setCircleColor:colors[seg.selectedSegmentIndex]];
 }
 @end
