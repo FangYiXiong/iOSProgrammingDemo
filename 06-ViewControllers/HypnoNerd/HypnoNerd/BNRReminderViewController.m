@@ -41,4 +41,9 @@
     NSLog(@"%s got called.",__PRETTY_FUNCTION__);
 }
 
+- (void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
+    self.datePicker.minimumDate = [NSDate dateWithTimeIntervalSinceNow:60];
+}
+
 @end
