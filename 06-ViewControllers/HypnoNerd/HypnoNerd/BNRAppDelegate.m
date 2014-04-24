@@ -9,6 +9,7 @@
 #import "BNRAppDelegate.h"
 #import "BNRHypnosisViewController.h"
 #import "BNRReminderViewController.h"
+#import "BNRQuizViewController.h"
 
 @implementation BNRAppDelegate
 
@@ -26,9 +27,11 @@
     
     // 不使用 withNibName..这个方法也可以，应该该方法为 指定初始化方法，系统会自动调用
     BNRReminderViewController *rvc = [[BNRReminderViewController alloc] init];
+    BNRQuizViewController *qvc = [[BNRQuizViewController alloc] init];
+    
     
     UITabBarController *tbc = [[UITabBarController alloc] init];
-    tbc.viewControllers = @[hvc,rvc];
+    tbc.viewControllers = @[hvc,rvc,qvc];
     
     
 //    self.window.rootViewController = hvc;
