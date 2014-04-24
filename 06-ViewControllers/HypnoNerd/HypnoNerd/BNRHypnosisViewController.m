@@ -20,7 +20,10 @@
     return self;
 }
 
-
+- (void)viewDidLoad{
+    [super viewDidLoad];
+    NSLog(@"%s got called.",__PRETTY_FUNCTION__);
+}
 
 // 手动加载 View 要覆盖这个方法.
 - (void)loadView{

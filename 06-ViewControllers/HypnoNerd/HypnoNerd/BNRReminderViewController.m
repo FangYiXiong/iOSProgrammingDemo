@@ -36,4 +36,9 @@
     [[UIApplication sharedApplication] scheduleLocalNotification:note];
 }
 
+- (void)viewDidLoad{
+    [super viewDidLoad];
+    NSLog(@"%s got called.",__PRETTY_FUNCTION__);
+}
+
 @end
