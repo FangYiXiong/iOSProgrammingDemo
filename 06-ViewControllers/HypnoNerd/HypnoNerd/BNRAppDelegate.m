@@ -16,10 +16,16 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    
-    
     BNRHypnosisViewController *hvc = [[BNRHypnosisViewController alloc] init];
-    self.window.rootViewController = hvc;
+    
+    // 得到指向当前 app bundle 的对象
+    NSBundle *appBundle = [NSBundle mainBundle];
+    
+    // 在 appBundle 中查找 BNRReminderViewController.XIB 这个文件
+    BNRReminderViewController *rvc = [[BNRReminderViewController alloc] initWithNibName:@"BNRReminderViewController" bundle:appBundle];
+    
+//    self.window.rootViewController = hvc;
+    self.window.rootViewController = rvc;
     
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
