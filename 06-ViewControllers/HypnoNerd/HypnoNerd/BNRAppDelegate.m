@@ -22,10 +22,15 @@
     NSBundle *appBundle = [NSBundle mainBundle];
     
     // 在 appBundle 中查找 BNRReminderViewController.XIB 这个文件
-    BNRReminderViewController *rvc = [[BNRReminderViewController alloc] initWithNibName:@"BNRReminderViewController" bundle:appBundle];
+    BNRReminderViewController *rvc = [[BNRReminderViewController alloc] initWithNibName:@"BNRReminderViewController" bundle:nil];
+    
+    UITabBarController *tbc = [[UITabBarController alloc] init];
+    tbc.viewControllers = @[hvc,rvc];
+    
     
 //    self.window.rootViewController = hvc;
-    self.window.rootViewController = rvc;
+//    self.window.rootViewController = rvc;
+    self.window.rootViewController = tbc;
     
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];

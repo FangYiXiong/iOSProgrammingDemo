@@ -11,6 +11,17 @@
 
 @implementation BNRHypnosisViewController
 
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil{
+    if (self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil]) {
+        self.tabBarItem.title = @"Hypnotize";
+        UIImage *image = [UIImage imageNamed:@"Hypno.png"];
+        self.tabBarItem.image = image;
+    }
+    return self;
+}
+
+
+
 // 手动加载 View 要覆盖这个方法.
 - (void)loadView{
     // 创建一个 HypnosisView
